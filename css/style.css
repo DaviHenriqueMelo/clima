@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    width: 100%;
+    height:  100vh;
+    background-image:  url('https://images.unsplash.com/photo-1454982523318-4b6396f39d3a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMDU1Njk5MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+    font-family:  "Open Sans", sans-serif;
+    font-weight:  300;
+}
+
+#btn{
+    padding:  10px;
+    border-radius:  10px;
+    border:  none;
+    background-color:  white;
+    margin-left:  10px;
+    transition:  ease .2s;
+}
+#btn:hover, #btn:active{
+    cursor: pointer;
+    background-color:  rgb(197, 197, 197);
+    border-radius:  15px;
+}
+.main{
+    background-color:  rgba(0, 0, 0, 0.75);
+    padding:  50px;
+    border-radius:  15px;
+    color:  #fff;
+    font-size:  22px;
+}
+
+#cidade{
+    padding:  10px;
+    border:  none;
+    border-radius:  10px;
+    outline:  none;
+    transition:  ease .2s;
+}
+
+#cidade:hover, #cidade:active{
+    cursor: pointer;
+    background-color:  rgb(197, 197, 197);
+    border-radius:  15px;
+}
+
+#name-city{
+    font-family:  "Open Sans", sans-serif;
+    font-weight:  300;
+}
+#condicao{
+    position: relative;
+    right:  10px;
+    bottom:  10px;
+}
+#img-icon{
+    position: relative;
+    bottom:  20px;
+    right:  10px;
+}
+.imgs{
+    display:  inline-flex;
+}
+
+#umidade{
+    position: relative;
+    bottom:  50px;
+}

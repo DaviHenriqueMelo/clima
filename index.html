@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previção do tempo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <input type="text" id="cidade" placeholder="Informe a cidade..." required>
+        <button onclick="verificarCidade()" id="btn">Procurar</button>
+        <div id="info">
+            <h1 id="name-city"></h1>
+            <p id="graus"></p>
+            <div class="imgs">
+
+                <p id="img-tempo"><img src="" id="img-icon"></p>
+                <p id="condicao"></p>
+            </div>
+            
+            <p id="umidade"></p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
